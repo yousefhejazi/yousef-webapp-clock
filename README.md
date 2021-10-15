@@ -5,8 +5,12 @@
 <br>
 <br>
 
+## 1) Edit with vscode, Fix a bug from 6 -> 9
+```
+code index.html
+```
 
-## 1) Make a working directory
+## 2) Make a working directory
 ```
 cd $home
 
@@ -17,7 +21,7 @@ cd webapp2021
 
 
 
-## 2) install "serve" using npm (only once)
+## 3) install "serve" using npm (only once)
 
 ```
 npm install serve --global
@@ -25,18 +29,18 @@ serve
 
 ```
 
-## 3) Login to azure via powershell
+## 4) Login to azure via powershell
 ```
 az login
 
 ```
 
-## 4)  Upload your app to Azure (Repeat on code change)
+## 5)  Upload your app to Azure (Repeat on code change)
 ```
 az webapp up --name "yousef-webapp-clock" --resource-group "yousef" --location "westeurope"  --html --launch-browser
 ```
 
-## 5) # test on Azure
+## 6) # test on Azure
 ```
 chrome https://yousef-webapp-clock.azurewebsites.net
 ```
