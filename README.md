@@ -5,12 +5,7 @@
 <br>
 <br>
 
-## 1) Edit with vscode, Fix a bug from 6 -> 9
-```
-code index.html
-```
-
-## 2) Make a working directory
+## 1) Make a working directory
 ```
 cd $home
 
@@ -18,7 +13,10 @@ git clone https://github.com/WebDevSimplified/JavaScript-Clock.git webapp2021
 
 cd webapp2021
 ```
-
+## 2) Edit with vscode, Fix a bug from 6 -> 9
+```
+code index.html
+```
 
 
 ## 3) install "serve" using npm (only once)
