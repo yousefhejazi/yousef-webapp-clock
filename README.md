@@ -31,7 +31,7 @@ az login
 
 ```
 
-## 4)  Upload your app to Azure (Repeat on code change
+## 4)  Upload your app to Azure (Repeat on code change)
 ```
 az webapp up --name "yousef-webapp-clock" --resource-group "yousef" --location "westeurope"  --html --launch-browser
 ```
